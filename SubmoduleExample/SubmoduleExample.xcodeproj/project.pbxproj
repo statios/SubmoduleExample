@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97A1823B826A13B2C1532C8E /* Pods_SubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9FDEADC13317F9E4CA3BCD /* Pods_SubmoduleExample.framework */; };
 		AF17D64824BEF4A3007A79E6 /* SubmoduleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF17D64F24BEF542007A79E6 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17D64E24BEF542007A79E6 /* CustomClass.swift */; };
+		AFE31FE224BF00A900983165 /* SubmoduleExample.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFE31FE124BF00A900983165 /* SubmoduleExample.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E1FC1618A1AB6D2814BB932 /* Pods-SubmoduleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubmoduleExample.release.xcconfig"; path = "Target Support Files/Pods-SubmoduleExample/Pods-SubmoduleExample.release.xcconfig"; sourceTree = "<group>"; };
 		5E11995BF9016E01B4739D4A /* Pods-SubmoduleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubmoduleExample.debug.xcconfig"; path = "Target Support Files/Pods-SubmoduleExample/Pods-SubmoduleExample.debug.xcconfig"; sourceTree = "<group>"; };
-		6B9FDEADC13317F9E4CA3BCD /* Pods_SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17D64324BEF4A3007A79E6 /* SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
 		AF17D64724BEF4A3007A79E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF17D64E24BEF542007A79E6 /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		AFE31FE124BF00A900983165 /* SubmoduleExample.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SubmoduleExample.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A1823B826A13B2C1532C8E /* Pods_SubmoduleExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +36,7 @@
 		AF17D63924BEF4A3007A79E6 = {
 			isa = PBXGroup;
 			children = (
+				AFE31FE124BF00A900983165 /* SubmoduleExample.podspec */,
 				AF17D64524BEF4A3007A79E6 /* SubmoduleExample */,
 				AF17D64424BEF4A3007A79E6 /* Products */,
 				BE7F7F297C35609CAECFB1F1 /* Pods */,
@@ -68,14 +68,12 @@
 				5E11995BF9016E01B4739D4A /* Pods-SubmoduleExample.debug.xcconfig */,
 				4E1FC1618A1AB6D2814BB932 /* Pods-SubmoduleExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E052F95EBA318123D8B8A578 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B9FDEADC13317F9E4CA3BCD /* Pods_SubmoduleExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE31FE224BF00A900983165 /* SubmoduleExample.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

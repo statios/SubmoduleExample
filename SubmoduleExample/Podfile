@@ -6,5 +6,5 @@ target 'SubmoduleExample' do
   use_frameworks!
 
   # Pods for SubmoduleExample
-  pod 'RxSwift'
+  pod 'SnapKit'
 end

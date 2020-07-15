@@ -7,10 +7,20 @@
 //
 
 import UIKit
-import RxSwift
+import SnapKit
 
-public class CustomClass {
-  public let disposeBag = DisposeBag()
-  public var name = "stat"
-  public init() { }
+public class CustomClass: UIView {
+  public let label = UILabel()
+  public override init(frame: CGRect) {
+    super.init(frame: frame)
+    addSubview(label)
+    label.text = "submodule"
+    label.snp.makeConstraints {
+      $0.centerY.equalToSuperview()
+      $0.trailing.equalToSuperview()
+    }
+  }
+  public required init?(coder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+  }
 }
