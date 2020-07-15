@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AF17D64824BEF4A3007A79E6 /* SubmoduleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF17D64F24BEF542007A79E6 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17D64E24BEF542007A79E6 /* CustomClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF17D64324BEF4A3007A79E6 /* SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
 		AF17D64724BEF4A3007A79E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF17D64E24BEF542007A79E6 /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */,
 				AF17D64724BEF4A3007A79E6 /* Info.plist */,
+				AF17D64E24BEF542007A79E6 /* CustomClass.swift */,
 			);
 			path = SubmoduleExample;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					AF17D64224BEF4A3007A79E6 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF17D64F24BEF542007A79E6 /* CustomClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		AF17D64C24BEF4A3007A79E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.statios.SubmoduleExample;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		AF17D64D24BEF4A3007A79E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
