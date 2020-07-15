@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A5AA0CC1C8B1D09BB7F0A6 /* Pods_SubmoduleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC62D46CC886B82EA98EA75 /* Pods_SubmoduleExample.framework */; };
 		AF6F74ED24BEE91E0084A760 /* SubmoduleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFD36DB924BEED210078A9EC /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD36DB824BEED210078A9EC /* ExampleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65AF42676DCB8B964079AFAD /* Pods-SubmoduleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubmoduleExample.release.xcconfig"; path = "Target Support Files/Pods-SubmoduleExample/Pods-SubmoduleExample.release.xcconfig"; sourceTree = "<group>"; };
+		9FC62D46CC886B82EA98EA75 /* Pods_SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6F74E824BEE91E0084A760 /* SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
 		AF6F74EC24BEE91E0084A760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -19,6 +22,7 @@
 		AFD36DB324BEEC350078A9EC /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
 		AFD36DB424BEEC350078A9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD36DB824BEED210078A9EC /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
+		C5CB792192451FD3AEB2B5E0 /* Pods-SubmoduleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubmoduleExample.debug.xcconfig"; path = "Target Support Files/Pods-SubmoduleExample/Pods-SubmoduleExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A5AA0CC1C8B1D09BB7F0A6 /* Pods_SubmoduleExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 				AF6F74EA24BEE91E0084A760 /* SubmoduleExample */,
 				AF6F74E924BEE91E0084A760 /* Products */,
 				AFD36DAE24BEEBF80078A9EC /* Frameworks */,
+				D6AB21D3975913AA6FDB2D6E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,12 +70,15 @@
 			children = (
 				AFD36DB224BEEC350078A9EC /* SubmoduleExample */,
 				AFD36DAF24BEEBF80078A9EC /* SubmoduleExample.xcodeproj */,
+				9FC62D46CC886B82EA98EA75 /* Pods_SubmoduleExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AFD36DB024BEEBF80078A9EC /* Products */ = {
 			isa = PBXGroup;
+			children = (
+			);
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -80,6 +89,16 @@
 				AFD36DB424BEEC350078A9EC /* Info.plist */,
 			);
 			path = SubmoduleExample;
+			sourceTree = "<group>";
+		};
+		D6AB21D3975913AA6FDB2D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB792192451FD3AEB2B5E0 /* Pods-SubmoduleExample.debug.xcconfig */,
+				65AF42676DCB8B964079AFAD /* Pods-SubmoduleExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF6F74F024BEE91E0084A760 /* Build configuration list for PBXNativeTarget "SubmoduleExample" */;
 			buildPhases = (
+				7FCC2E714D732316D133A04B /* [CP] Check Pods Manifest.lock */,
 				AF6F74E324BEE91E0084A760 /* Headers */,
 				AF6F74E424BEE91E0084A760 /* Sources */,
 				AF6F74E524BEE91E0084A760 /* Frameworks */,
@@ -162,6 +182,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FCC2E714D732316D133A04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SubmoduleExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF6F74E424BEE91E0084A760 /* Sources */ = {
@@ -297,6 +342,7 @@
 		};
 		AF6F74F124BEE91E0084A760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CB792192451FD3AEB2B5E0 /* Pods-SubmoduleExample.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +370,7 @@
 		};
 		AF6F74F224BEE91E0084A760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AF42676DCB8B964079AFAD /* Pods-SubmoduleExample.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
