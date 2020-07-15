@@ -9,7 +9,7 @@
 open class Navigator {
 
   enum Scene {
-    
+    case example
   }
   
 }
