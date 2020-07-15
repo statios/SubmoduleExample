@@ -6,7 +6,7 @@
 //  Copyright © 2020 Stat.So. All rights reserved.
 //
 
-open class CustomClass {
-  open var somestr = "홍길동"
-  open init(s: Int) { }
+public class CustomClass {
+  public var somestr = "홍길동"
+  public init(s: Int) { }
 }
