@@ -9,8 +9,7 @@
 import UIKit
 import RxSwift
 
-public class Navigator {
-  let disposeBag = DisposeBag()
+public class CustomClass {
   public var name = "stat"
   public init() { }
 }
