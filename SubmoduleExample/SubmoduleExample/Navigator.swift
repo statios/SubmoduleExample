@@ -7,8 +7,6 @@
 //
 
 open class CustomClass {
-  var somestr = "홍길동"
-  open init() {
-    
-  }
+  open var somestr = "홍길동"
+  open init(s: Int) { }
 }
