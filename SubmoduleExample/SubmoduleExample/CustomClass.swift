@@ -10,6 +10,7 @@ import UIKit
 import RxSwift
 
 public class CustomClass {
+  public let disposeBag = DisposeBag()
   public var name = "stat"
   public init() { }
 }
