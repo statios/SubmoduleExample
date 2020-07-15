@@ -7,22 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF6F74ED24BEE91E0084A760 /* SubmoduleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFD36DB924BEED210078A9EC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD36DB824BEED210078A9EC /* Navigator.swift */; };
+		AF17D64824BEF4A3007A79E6 /* SubmoduleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF17D64F24BEF542007A79E6 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17D64E24BEF542007A79E6 /* CustomClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF6F74E824BEE91E0084A760 /* SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
-		AF6F74EC24BEE91E0084A760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFD36DAF24BEEBF80078A9EC /* SubmoduleExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SubmoduleExample.xcodeproj; sourceTree = "<group>"; };
-		AFD36DB324BEEC350078A9EC /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
-		AFD36DB424BEEC350078A9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFD36DB824BEED210078A9EC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		AF17D64324BEF4A3007A79E6 /* SubmoduleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubmoduleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
+		AF17D64724BEF4A3007A79E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF17D64E24BEF542007A79E6 /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF6F74E524BEE91E0084A760 /* Frameworks */ = {
+		AF17D64024BEF4A3007A79E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,52 +29,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF6F74DE24BEE91E0084A760 = {
+		AF17D63924BEF4A3007A79E6 = {
 			isa = PBXGroup;
 			children = (
-				AF6F74EA24BEE91E0084A760 /* SubmoduleExample */,
-				AF6F74E924BEE91E0084A760 /* Products */,
-				AFD36DAE24BEEBF80078A9EC /* Frameworks */,
+				AF17D64524BEF4A3007A79E6 /* SubmoduleExample */,
+				AF17D64424BEF4A3007A79E6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF6F74E924BEE91E0084A760 /* Products */ = {
+		AF17D64424BEF4A3007A79E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF6F74E824BEE91E0084A760 /* SubmoduleExample.framework */,
+				AF17D64324BEF4A3007A79E6 /* SubmoduleExample.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF6F74EA24BEE91E0084A760 /* SubmoduleExample */ = {
+		AF17D64524BEF4A3007A79E6 /* SubmoduleExample */ = {
 			isa = PBXGroup;
 			children = (
-				AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */,
-				AF6F74EC24BEE91E0084A760 /* Info.plist */,
-				AFD36DB824BEED210078A9EC /* Navigator.swift */,
-			);
-			path = SubmoduleExample;
-			sourceTree = "<group>";
-		};
-		AFD36DAE24BEEBF80078A9EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AFD36DB224BEEC350078A9EC /* SubmoduleExample */,
-				AFD36DAF24BEEBF80078A9EC /* SubmoduleExample.xcodeproj */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AFD36DB024BEEBF80078A9EC /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AFD36DB224BEEC350078A9EC /* SubmoduleExample */ = {
-			isa = PBXGroup;
-			children = (
-				AFD36DB324BEEC350078A9EC /* SubmoduleExample.h */,
-				AFD36DB424BEEC350078A9EC /* Info.plist */,
+				AF17D64624BEF4A3007A79E6 /* SubmoduleExample.h */,
+				AF17D64724BEF4A3007A79E6 /* Info.plist */,
+				AF17D64E24BEF542007A79E6 /* CustomClass.swift */,
 			);
 			path = SubmoduleExample;
 			sourceTree = "<group>";
@@ -85,25 +58,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AF6F74E324BEE91E0084A760 /* Headers */ = {
+		AF17D63E24BEF4A3007A79E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF6F74ED24BEE91E0084A760 /* SubmoduleExample.h in Headers */,
+				AF17D64824BEF4A3007A79E6 /* SubmoduleExample.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF6F74E724BEE91E0084A760 /* SubmoduleExample */ = {
+		AF17D64224BEF4A3007A79E6 /* SubmoduleExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF6F74F024BEE91E0084A760 /* Build configuration list for PBXNativeTarget "SubmoduleExample" */;
+			buildConfigurationList = AF17D64B24BEF4A3007A79E6 /* Build configuration list for PBXNativeTarget "SubmoduleExample" */;
 			buildPhases = (
-				AF6F74E324BEE91E0084A760 /* Headers */,
-				AF6F74E424BEE91E0084A760 /* Sources */,
-				AF6F74E524BEE91E0084A760 /* Frameworks */,
-				AF6F74E624BEE91E0084A760 /* Resources */,
+				AF17D63E24BEF4A3007A79E6 /* Headers */,
+				AF17D63F24BEF4A3007A79E6 /* Sources */,
+				AF17D64024BEF4A3007A79E6 /* Frameworks */,
+				AF17D64124BEF4A3007A79E6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,25 +84,25 @@
 			);
 			name = SubmoduleExample;
 			productName = SubmoduleExample;
-			productReference = AF6F74E824BEE91E0084A760 /* SubmoduleExample.framework */;
+			productReference = AF17D64324BEF4A3007A79E6 /* SubmoduleExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF6F74DF24BEE91E0084A760 /* Project object */ = {
+		AF17D63A24BEF4A3007A79E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Stat.So;
 				TargetAttributes = {
-					AF6F74E724BEE91E0084A760 = {
+					AF17D64224BEF4A3007A79E6 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
 					};
 				};
 			};
-			buildConfigurationList = AF6F74E224BEE91E0084A760 /* Build configuration list for PBXProject "SubmoduleExample" */;
+			buildConfigurationList = AF17D63D24BEF4A3007A79E6 /* Build configuration list for PBXProject "SubmoduleExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,24 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AF6F74DE24BEE91E0084A760;
-			productRefGroup = AF6F74E924BEE91E0084A760 /* Products */;
+			mainGroup = AF17D63924BEF4A3007A79E6;
+			productRefGroup = AF17D64424BEF4A3007A79E6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = AFD36DB024BEEBF80078A9EC /* Products */;
-					ProjectRef = AFD36DAF24BEEBF80078A9EC /* SubmoduleExample.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				AF6F74E724BEE91E0084A760 /* SubmoduleExample */,
+				AF17D64224BEF4A3007A79E6 /* SubmoduleExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF6F74E624BEE91E0084A760 /* Resources */ = {
+		AF17D64124BEF4A3007A79E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,18 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF6F74E424BEE91E0084A760 /* Sources */ = {
+		AF17D63F24BEF4A3007A79E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD36DB924BEED210078A9EC /* Navigator.swift in Sources */,
+				AF17D64F24BEF542007A79E6 /* CustomClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AF6F74EE24BEE91E0084A760 /* Debug */ = {
+		AF17D64924BEF4A3007A79E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		AF6F74EF24BEE91E0084A760 /* Release */ = {
+		AF17D64A24BEF4A3007A79E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,13 +262,12 @@
 			};
 			name = Release;
 		};
-		AF6F74F124BEE91E0084A760 /* Debug */ = {
+		AF17D64C24BEF4A3007A79E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -322,13 +288,12 @@
 			};
 			name = Debug;
 		};
-		AF6F74F224BEE91E0084A760 /* Release */ = {
+		AF17D64D24BEF4A3007A79E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -351,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF6F74E224BEE91E0084A760 /* Build configuration list for PBXProject "SubmoduleExample" */ = {
+		AF17D63D24BEF4A3007A79E6 /* Build configuration list for PBXProject "SubmoduleExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF6F74EE24BEE91E0084A760 /* Debug */,
-				AF6F74EF24BEE91E0084A760 /* Release */,
+				AF17D64924BEF4A3007A79E6 /* Debug */,
+				AF17D64A24BEF4A3007A79E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF6F74F024BEE91E0084A760 /* Build configuration list for PBXNativeTarget "SubmoduleExample" */ = {
+		AF17D64B24BEF4A3007A79E6 /* Build configuration list for PBXNativeTarget "SubmoduleExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF6F74F124BEE91E0084A760 /* Debug */,
-				AF6F74F224BEE91E0084A760 /* Release */,
+				AF17D64C24BEF4A3007A79E6 /* Debug */,
+				AF17D64D24BEF4A3007A79E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF6F74DF24BEE91E0084A760 /* Project object */;
+	rootObject = AF17D63A24BEF4A3007A79E6 /* Project object */;
 }
