@@ -6,15 +6,6 @@
 //  Copyright © 2020 Stat.So. All rights reserved.
 //
 
-open class Navigator {
-
-  enum Scene {
-    case example
-  }
-  
-}
-
-///SIngleton
-extension Navigator {
-  open static let `default` = Navigator()
+open class CustomClass {
+  var somestr = "홍길동"
 }
