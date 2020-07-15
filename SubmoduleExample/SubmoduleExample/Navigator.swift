@@ -8,5 +8,5 @@
 
 public class CustomClass {
   public var somestr = "BUZZ"
-  public init(s: Int) { }
+  public init() { }
 }
