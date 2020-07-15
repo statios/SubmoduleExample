@@ -7,6 +7,6 @@
 //
 
 public class CustomClass {
-  public var somestr = "홍길동"
+  public var somestr = "BUZZ"
   public init(s: Int) { }
 }
