@@ -7,5 +7,14 @@
 //
 
 open class Navigator {
+
+  enum Scene {
+    
+  }
   
+}
+
+///SIngleton
+extension Navigator {
+  static let `default` = Navigator()
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF6F74ED24BEE91E0084A760 /* SubmoduleExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFD36DB924BEED210078A9EC /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD36DB824BEED210078A9EC /* ExampleClass.swift */; };
+		AFD36DB924BEED210078A9EC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD36DB824BEED210078A9EC /* Navigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		AFD36DAF24BEEBF80078A9EC /* SubmoduleExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SubmoduleExample.xcodeproj; sourceTree = "<group>"; };
 		AFD36DB324BEEC350078A9EC /* SubmoduleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmoduleExample.h; sourceTree = "<group>"; };
 		AFD36DB424BEEC350078A9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFD36DB824BEED210078A9EC /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
+		AFD36DB824BEED210078A9EC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			children = (
 				AF6F74EB24BEE91E0084A760 /* SubmoduleExample.h */,
 				AF6F74EC24BEE91E0084A760 /* Info.plist */,
-				AFD36DB824BEED210078A9EC /* ExampleClass.swift */,
+				AFD36DB824BEED210078A9EC /* Navigator.swift */,
 			);
 			path = SubmoduleExample;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD36DB924BEED210078A9EC /* ExampleClass.swift in Sources */,
+				AFD36DB924BEED210078A9EC /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
