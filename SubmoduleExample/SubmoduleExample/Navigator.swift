@@ -8,4 +8,7 @@
 
 open class CustomClass {
   var somestr = "홍길동"
+  open init() {
+    
+  }
 }
