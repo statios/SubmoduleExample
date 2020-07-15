@@ -6,6 +6,7 @@
 //  Copyright © 2020 Stat.So. All rights reserved.
 //
 
-open class Navigator {
-  
+public class CustomClass {
+  public var somestr = "BUZZ"
+  public init(s: Int) { }
 }
