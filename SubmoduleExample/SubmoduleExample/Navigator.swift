@@ -16,5 +16,5 @@ open class Navigator {
 
 ///SIngleton
 extension Navigator {
-  static let `default` = Navigator()
+  open static let `default` = Navigator()
 }
